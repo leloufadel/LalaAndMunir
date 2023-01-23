@@ -15,6 +15,7 @@ body{
     text-justify: auto;
   }
   .header{
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,12 +27,38 @@ body{
     margin: 5px auto;
   }
   #tribute-info{
-    width:50%;
+    width:45%;
     margin: 20px auto;
     line-height: 30px;
+    text-align: center;
   }
   div{
     width:50%;
     margin: 20px auto;
     line-height: 30px;
   }
+  #img-div > #image {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    
+}
+span{
+  font-weight: bold;
+}
+ul > li {
+  width: 50%;
+  margin: 20px auto;
+  text-align: justify;
+  
+}
+#tribute{
+  text-align: center;
+}
+#img-div> #img-caption {
+  width: 59%;
+  margin: 5px auto;
+  padding-bottom: 10px;
+}
